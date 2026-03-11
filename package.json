@@ -18,7 +18,8 @@
     "test": "pnpm --filter @minions-audiences/sdk run test",
     "lint": "pnpm --filter @minions-audiences/sdk run build && pnpm --filter @minions-audiences/sdk run lint && pnpm --filter @minions-audiences/cli run lint",
     "deploy": "pnpm run deploy:blog",
-    "dev": "echo 'no dev'"
+    "dev": "echo 'no dev'",
+    "stop": "pkill -f 'node.*minions-audiences' || true"
   },
   "engines": {
     "node": ">=20"

@@ -1,1 +1,7 @@
-name: minions-audiences-workspace\ndescription: Ideal customer profiles, niche definitions, market segments, and target audience personas\npriority: high\ntags:\n  - foundation\n  - ecosystem\ndeploy_url: null\n
+name: minions-audiences-workspace
+project_scope: main
+project_type: monorepo
+description: "Ideal customer profiles, niche definitions, market segments, and target audience personas"
+priority: high
+deploy_url: null
+tags: [minion, toolbox, ai-agent, automation, minions, audiences]
